@@ -1,0 +1,31 @@
+{
+	"name": "hypejunction/google_maps_autocomplete",
+	"type": "elgg-plugin",
+	"description": "Replaces location input with Google Maps Autocomplete",
+	"homepage": "http://hypejunction.com",
+	"keywords": [
+		"elgg",
+		"plugin",
+		"maps",
+		"location",
+		"autocomplete"
+	],
+	"license": "GPL-2.0",
+	"authors": [
+		{
+			"name": "Ismayil Khayredinov",
+			"email": "info@hypejunction.com"
+		}
+	],
+	"require": {
+		"php": ">=5.5",
+		"composer/installers": "~1.0",
+		"hypejunction/google_client": "~2.0"
+	},
+	"autoload": {
+		"psr-0": {
+			"": "classes/"
+		}
+	}
+}
+
